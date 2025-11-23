@@ -16,17 +16,17 @@
             font-family: 'Quicksand', 'Poppins', sans-serif;
             background: linear-gradient(135deg, #084734 0%, #CDEDB3 100%);
             min-height: 100vh;
-            padding: 20px;
-            line-height: 1.6;
+            padding: 15px;
+            line-height: 1.5;
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 100%;
             margin: 0 auto;
             background: white;
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(8, 71, 52, 0.2);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(8, 71, 52, 0.2);
         }
 
         .section {
@@ -39,37 +39,40 @@
 
         h1 {
             color: #084734;
-            margin-bottom: 15px;
-            font-size: 2.8em;
+            margin-bottom: 12px;
+            font-size: 1.8em;
             font-weight: 700;
             font-family: 'Poppins', sans-serif;
         }
 
         h2 {
             color: #084734;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
             font-weight: 600;
             font-family: 'Poppins', sans-serif;
         }
 
         h3 {
             color: #084734;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
+            font-size: 1.3em;
             font-weight: 600;
             font-family: 'Poppins', sans-serif;
         }
 
         h4 {
             color: #084734;
-            margin: 20px 0 10px 0;
+            margin: 15px 0 8px 0;
+            font-size: 1.1em;
             font-weight: 600;
             font-family: 'Poppins', sans-serif;
         }
 
         .subtitle {
             color: #5D8A66;
-            font-size: 1.3em;
-            margin-bottom: 30px;
+            font-size: 1em;
+            margin-bottom: 20px;
             font-weight: 500;
         }
 
@@ -77,51 +80,45 @@
             background: linear-gradient(135deg, #084734, #5D8A66);
             color: white;
             border: none;
-            padding: 16px 45px;
+            padding: 14px 35px;
             border-radius: 50px;
             cursor: pointer;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
-            margin: 10px;
+            margin: 8px;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 20px rgba(8, 71, 52, 0.3);
+            box-shadow: 0 4px 15px rgba(8, 71, 52, 0.3);
             font-family: 'Quicksand', sans-serif;
         }
 
         .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(8, 71, 52, 0.4);
-            background: linear-gradient(135deg, #063826, #4A7655);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(8, 71, 52, 0.4);
         }
 
         .btn-secondary {
             background: linear-gradient(135deg, #CDEDB3, #CEF17B);
             color: #084734;
             border: none;
-            padding: 14px 35px;
+            padding: 12px 25px;
             border-radius: 50px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 600;
-            margin: 10px;
+            margin: 8px;
             transition: all 0.3s ease;
             font-family: 'Quicksand', sans-serif;
         }
 
-        .btn-secondary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(206, 241, 123, 0.4);
-        }
-
         .progress-container {
-            margin: 30px 0;
+            margin: 20px 0;
         }
 
         .progress-bar {
             width: 100%;
-            height: 12px;
+            height: 10px;
             background: #E8F5E8;
-            border-radius: 10px;
+            border-radius: 8px;
             overflow: hidden;
             border: 2px solid #CDEDB3;
         }
@@ -129,55 +126,56 @@
         .progress {
             height: 100%;
             background: linear-gradient(90deg, #084734, #5D8A66);
-            border-radius: 10px;
+            border-radius: 8px;
             transition: width 0.5s ease;
         }
 
         .progress-text {
             text-align: center;
             color: #5D8A66;
-            margin-top: 10px;
+            margin-top: 8px;
             font-weight: 600;
-            font-size: 1.1em;
+            font-size: 0.9em;
         }
 
         .question-container {
             background: #F8FFF0;
-            padding: 30px;
-            border-radius: 20px;
-            margin: 20px 0;
-            border: 3px solid #CDEDB3;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px 0;
+            border: 2px solid #CDEDB3;
         }
 
         .question-text {
-            font-size: 1.4em;
+            font-size: 1.1em;
             color: #084734;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             font-weight: 600;
-            line-height: 1.5;
+            line-height: 1.4;
         }
 
+        /* REVISI UTAMA: GRID LEBIH COMPACT */
         .selection-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            max-width: 700px;
+            gap: 12px;
+            max-width: 100%;
             margin: 0 auto;
         }
 
         .selection-column {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 8px;
         }
 
         .selection-header {
             text-align: center;
             font-weight: 700;
-            padding: 12px;
-            border-radius: 12px;
-            margin-bottom: 8px;
-            font-size: 1.1em;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 6px;
+            font-size: 0.9em;
             font-family: 'Poppins', sans-serif;
         }
 
@@ -193,42 +191,39 @@
 
         .option-card {
             background: white;
-            border: 3px solid #E8F5E8;
-            border-radius: 15px;
-            padding: 18px;
+            border: 2px solid #E8F5E8;
+            border-radius: 12px;
+            padding: 12px;
             cursor: pointer;
             transition: all 0.3s ease;
             text-align: left;
             position: relative;
-            min-height: 90px;
+            min-height: 70px;
             display: flex;
             align-items: center;
         }
 
         .option-card:hover {
             border-color: #5D8A66;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(8, 71, 52, 0.15);
+            transform: translateY(-2px);
         }
 
         .option-card.selected-most {
             border-color: #084734;
             background: linear-gradient(135deg, #F0F9F0, #E8F5E8);
-            transform: scale(1.03);
-            box-shadow: 0 5px 20px rgba(8, 71, 52, 0.2);
+            transform: scale(1.02);
         }
 
         .option-card.selected-least {
             border-color: #CEF17B;
             background: linear-gradient(135deg, #F8FFE8, #F0F9D8);
-            transform: scale(1.03);
-            box-shadow: 0 5px 20px rgba(206, 241, 123, 0.3);
+            transform: scale(1.02);
         }
 
         .option-text {
-            font-size: 15px;
-            line-height: 1.5;
-            margin-right: 35px;
+            font-size: 0.85em;
+            line-height: 1.4;
+            margin-right: 25px;
             flex: 1;
             color: #2D4A35;
             font-weight: 500;
@@ -236,17 +231,17 @@
 
         .checkmark {
             position: absolute;
-            top: 12px;
-            right: 12px;
-            width: 24px;
-            height: 24px;
+            top: 8px;
+            right: 8px;
+            width: 20px;
+            height: 20px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
             color: white;
-            font-size: 14px;
+            font-size: 12px;
             font-family: 'Poppins', sans-serif;
         }
 
@@ -262,32 +257,27 @@
         .selection-instruction {
             background: linear-gradient(135deg, #FFF8E1, #FFECB3);
             border: 2px solid #FFD54F;
-            border-radius: 12px;
-            padding: 18px;
-            margin: 25px 0;
+            border-radius: 10px;
+            padding: 12px;
+            margin: 15px 0;
             text-align: center;
             font-weight: 600;
+            font-size: 0.9em;
         }
 
         .disc-type {
-            margin: 30px 0;
-            padding: 30px;
-            border-radius: 20px;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 15px;
             color: white;
             text-align: left;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            border: 3px solid rgba(255,255,255,0.2);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border: 2px solid rgba(255,255,255,0.2);
         }
 
-        .d-type { 
-            background: linear-gradient(135deg, #084734, #1A5C41);
-        }
-        .i-type { 
-            background: linear-gradient(135deg, #5D8A66, #4A7655);
-        }
-        .s-type { 
-            background: linear-gradient(135deg, #8BBF7A, #7AA86A);
-        }
+        .d-type { background: linear-gradient(135deg, #084734, #1A5C41); }
+        .i-type { background: linear-gradient(135deg, #5D8A66, #4A7655); }
+        .s-type { background: linear-gradient(135deg, #8BBF7A, #7AA86A); }
         .c-type { 
             background: linear-gradient(135deg, #CDEDB3, #B8D8A3);
             color: #084734;
@@ -296,17 +286,17 @@
         .profile-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 25px;
-            margin: 25px 0;
+            gap: 15px;
+            margin: 20px 0;
         }
 
         .profile-card {
             background: white;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(8, 71, 52, 0.1);
-            border-left: 6px solid;
-            border-top: 3px solid #F8FFF0;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(8, 71, 52, 0.1);
+            border-left: 5px solid;
+            border-top: 2px solid #F8FFF0;
         }
 
         .profile-d { border-left-color: #084734; }
@@ -316,18 +306,17 @@
 
         .score-bar {
             background: #F0F9F0;
-            height: 22px;
-            border-radius: 12px;
-            margin: 12px 0;
+            height: 18px;
+            border-radius: 10px;
+            margin: 8px 0;
             overflow: hidden;
-            border: 2px solid #E8F5E8;
+            border: 1px solid #E8F5E8;
         }
 
         .score-fill {
             height: 100%;
-            border-radius: 10px;
+            border-radius: 8px;
             transition: width 1s ease;
-            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .score-d { background: linear-gradient(90deg, #084734, #1A5C41); }
@@ -337,12 +326,11 @@
 
         .strength-item {
             background: white;
-            padding: 18px;
-            margin: 12px 0;
-            border-radius: 12px;
-            border-left: 5px solid;
-            box-shadow: 0 4px 15px rgba(8, 71, 52, 0.08);
-            border-top: 2px solid #F8FFF0;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 10px;
+            border-left: 4px solid;
+            box-shadow: 0 2px 10px rgba(8, 71, 52, 0.05);
         }
 
         .strength-d { border-left-color: #084734; }
@@ -352,152 +340,118 @@
 
         .info-box {
             background: linear-gradient(135deg, #E8F5E8, #F0F9F0);
-            border-left: 6px solid #5D8A66;
-            padding: 25px;
-            margin: 25px 0;
-            border-radius: 15px;
+            border-left: 4px solid #5D8A66;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 12px;
             text-align: left;
-            border-top: 3px solid #CDEDB3;
         }
 
         .welcome-box {
             background: linear-gradient(135deg, #CDEDB3, #CEF17B);
-            padding: 35px;
-            border-radius: 20px;
-            margin: 25px 0;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px 0;
             text-align: center;
-            border: 4px solid #B8D8A3;
-            box-shadow: 0 10px 30px rgba(205, 237, 179, 0.3);
+            border: 3px solid #B8D8A3;
         }
 
         .feature-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin: 35px 0;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
         }
 
         .feature-item {
             background: white;
-            padding: 25px;
-            border-radius: 15px;
+            padding: 15px;
+            border-radius: 12px;
             text-align: center;
-            box-shadow: 0 8px 25px rgba(8, 71, 52, 0.1);
-            border: 3px solid #F0F9F0;
-            transition: all 0.3s ease;
-        }
-
-        .feature-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(8, 71, 52, 0.15);
-            border-color: #CDEDB3;
+            box-shadow: 0 4px 12px rgba(8, 71, 52, 0.1);
+            border: 2px solid #F0F9F0;
         }
 
         .feature-icon {
-            font-size: 3em;
-            margin-bottom: 15px;
+            font-size: 2em;
+            margin-bottom: 8px;
         }
 
         .grid-2 {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 25px;
-            margin: 25px 0;
-        }
-
-        .grid-3 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin: 25px 0;
-        }
-
-        .compatibility-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 18px;
-            margin: 18px 0;
-        }
-
-        .compatibility-item {
-            background: white;
-            padding: 18px;
-            border-radius: 12px;
-            text-align: center;
-            border: 3px solid #F0F9F0;
-            transition: all 0.3s ease;
-        }
-
-        .compatibility-item:hover {
-            transform: translateY(-3px);
-        }
-
-        .compatibility-good {
-            border-color: #8BBF7A;
-            background: #F0F9F0;
-        }
-
-        .compatibility-challenge {
-            border-color: #FFB74D;
-            background: #FFF8E1;
-        }
-
-        .type-icon {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .grid-2, .grid-3, .feature-list, .selection-grid, .profile-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .container {
-                padding: 25px;
-            }
-            
-            h1 {
-                font-size: 2.2em;
-            }
-            
-            .selection-grid {
-                gap: 15px;
-            }
-            
-            .question-text {
-                font-size: 1.2em;
-            }
-        }
-
-        /* Animasi tambahan */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .fade-in {
-            animation: fadeIn 0.6s ease-out;
-        }
-
-        .pulse {
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+            gap: 15px;
+            margin: 15px 0;
         }
 
         .genb-badge {
             background: linear-gradient(135deg, #084734, #1A5C41);
             color: white;
-            padding: 8px 20px;
-            border-radius: 25px;
+            padding: 6px 15px;
+            border-radius: 20px;
             font-weight: 600;
             display: inline-block;
-            margin-bottom: 15px;
-            font-size: 0.9em;
+            margin-bottom: 10px;
+            font-size: 0.8em;
+        }
+
+        /* RESPONSIVE FIXES */
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+                border-radius: 12px;
+            }
+            
+            h1 {
+                font-size: 1.6em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+            
+            .question-text {
+                font-size: 1em;
+            }
+            
+            .option-text {
+                font-size: 0.8em;
+            }
+            
+            .selection-grid {
+                gap: 8px;
+            }
+            
+            .option-card {
+                padding: 10px;
+                min-height: 65px;
+            }
+            
+            .btn-primary {
+                padding: 12px 25px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .selection-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .selection-header {
+                font-size: 0.8em;
+                padding: 8px;
+            }
+        }
+
+        /* Animasi */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.4s ease-out;
         }
     </style>
 </head>
@@ -509,13 +463,10 @@
             <h1>Halo Pengurus GenB! 👋</h1>
             <p class="subtitle">Kerjain test singkat ini dulu yuk sebelum capacity building!</p>
             
-            <div class="welcome-box pulse">
-                <h3>🎯 Kenapa sih perlu test DISC?</h3>
-                <p style="font-size: 1.1em; margin: 15px 0; color: #084734; font-weight: 600;">
-                    Biar kita bisa lebih <strong>saling memahami gaya komunikasi</strong> dan <strong>cara kerja</strong> masing-masing di kepengurusan GenB!
-                </p>
-                <p style="font-size: 1em; margin: 10px 0; color: #2D4A35;">
-                    Cuma 5 menit aja kok, tapi hasilnya bakal bermanfaat banget buat kolaborasi kita ke depan!
+            <div class="welcome-box">
+                <h3>🎯 Kenapa perlu test DISC?</h3>
+                <p style="font-size: 0.95em; margin: 10px 0; color: #084734; font-weight: 600;">
+                    Biar kita bisa lebih <strong>saling memahami</strong> gaya komunikasi di kepengurusan GenB!
                 </p>
             </div>
 
@@ -523,49 +474,41 @@
                 <div class="feature-item">
                     <div class="feature-icon">🦁</div>
                     <h4>Dominance</h4>
-                    <p style="color: #5D8A66;">Si Penggerak - Langsung action & fokus hasil</p>
+                    <p style="color: #5D8A66; font-size: 0.8em;">Si Penggerak</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">🌟</div>
                     <h4>Influence</h4>
-                    <p style="color: #5D8A66;">Si Penyemangat - Energik & jago komunikasi</p>
+                    <p style="color: #5D8A66; font-size: 0.8em;">Si Penyemangat</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">🤝</div>
                     <h4>Steadiness</h4>
-                    <p style="color: #5D8A66;">Si Penjaga - Sabar & bisa diandalkan</p>
+                    <p style="color: #5D8A66; font-size: 0.8em;">Si Penjaga</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">🔍</div>
                     <h4>Compliance</h4>
-                    <p style="color: #5D8A66;">Si Analitis - Teliti & sistematis</p>
+                    <p style="color: #5D8A66; font-size: 0.8em;">Si Analitis</p>
                 </div>
             </div>
 
             <div class="info-box">
                 <h4>📝 Yang bakal kamu dapetin:</h4>
-                <ul style="margin: 15px 0; padding-left: 20px; color: #2D4A35;">
-                    <li><strong>Profil gaya komunikasi</strong> kamu yang sebenarnya</li>
-                    <li><strong>Kekuatan alami</strong> yang bisa dimaksimalkan</li>
-                    <li><strong>Tips bekerja sama</strong> dengan berbagai tipe kepribadian</li>
-                    <li><strong>Pemahaman lebih dalam</strong> tentang tim GenB</li>
+                <ul style="margin: 10px 0; padding-left: 15px; color: #2D4A35; font-size: 0.9em;">
+                    <li>Profil gaya komunikasi kamu</li>
+                    <li>Kekuatan alami yang bisa dimaksimalkan</li>
+                    <li>Tips bekerja sama dengan berbagai tipe</li>
                 </ul>
-                <p style="margin-top: 15px; color: #5D8A66; font-style: italic;">
-                    "Knowing yourself is the beginning of all wisdom." - Aristotle
-                </p>
             </div>
 
-            <button class="btn-primary" onclick="startTest()">🎪 Yuk Mulai Test! (5 menit)</button>
-            
-            <div style="margin-top: 20px; color: #7f8c8d; font-size: 0.9em;">
-                <p>💡 <strong>Tips:</strong> Jawab yang jujur ya, jangan yang kamu inginkan. Biar hasilnya akurat!</p>
-            </div>
+            <button class="btn-primary" onclick="startTest()">🎪 Yuk Mulai Test!</button>
         </div>
 
         <!-- TEST SECTION -->
         <div id="test" class="section hidden">
             <h2>Test DISC GenB</h2>
-            <p class="subtitle">Pilih yang PALING dan PALING TIDAK mirip dengan kamu</p>
+            <p class="subtitle">Pilih yang PALING dan PALING TIDAK mirip</p>
             
             <div class="progress-container">
                 <div class="progress-bar">
@@ -578,14 +521,15 @@
                 <div class="question-text" id="question-text"></div>
                 
                 <div class="selection-instruction">
-                    <strong>📝 Cara menjawab:</strong> Pilih <span style="color: #084734;">satu yang PALING MIRIP</span> dengan kamu (Most) 
-                    dan <span style="color: #CEF17B;">satu yang PALING TIDAK MIRIP</span> dengan kamu (Least)
+                    <strong>📝 Cara menjawab:</strong><br>
+                    Pilih <span style="color: #084734;">PALING MIRIP</span> & 
+                    <span style="color: #CEF17B;">PALING TIDAK MIRIP</span>
                 </div>
 
                 <div class="selection-grid">
                     <div class="selection-column">
                         <div class="selection-header most-header">
-                            ✅ PALING MIRIP DENGAN SAYA
+                            ✅ PALING MIRIP
                         </div>
                         <div id="most-options" class="options-column">
                             <!-- Most options will be generated here -->
@@ -594,7 +538,7 @@
                     
                     <div class="selection-column">
                         <div class="selection-header least-header">
-                            ❌ PALING TIDAK MIRIP DENGAN SAYA
+                            ❌ TIDAK MIRIP
                         </div>
                         <div id="least-options" class="options-column">
                             <!-- Least options will be generated here -->
@@ -602,63 +546,58 @@
                     </div>
                 </div>
 
-                <button class="btn-primary" id="next-btn" onclick="nextQuestion()" style="margin-top: 25px; display: none;">
-                    ▶️ Lanjut ke Pertanyaan Berikutnya
+                <button class="btn-primary" id="next-btn" onclick="nextQuestion()" style="margin-top: 15px; display: none;">
+                    ▶️ Lanjut
                 </button>
             </div>
         </div>
 
         <!-- RESULT SECTION -->
         <div id="result" class="section hidden">
-            <h2>🎉 Ini Dia Hasil DISC Kamu!</h2>
-            <p class="subtitle">Profil gaya komunikasi dan kolaborasi kamu di GenB</p>
+            <h2>🎉 Hasil DISC Kamu!</h2>
+            <p class="subtitle">Profil gaya komunikasi di GenB</p>
             
             <div id="result-content">
                 <!-- Result will be generated here -->
             </div>
             
             <button class="btn-primary" onclick="resetTest()">🔄 Test Lagi</button>
-            <button class="btn-secondary" onclick="shareResult()">📤 Bagikan Hasil</button>
-            
-            <div style="margin-top: 30px; padding: 20px; background: #F8FFF0; border-radius: 15px; border: 2px solid #CDEDB3;">
-                <h4>💫 Selanjutnya?</h4>
-                <p>Gunakan insight ini untuk memahami cara terbaik berkolaborasi dengan sesama pengurus GenB. Setiap tipe punya keunikan dan kontribusi masing-masing! 🌟</p>
-            </div>
+            <button class="btn-secondary" onclick="shareResult()">📤 Share</button>
         </div>
     </div>
 
     <script>
-        // ==================== DISC QUESTION DATABASE - 24 PERTANYAAN ====================
+        // ==================== DISC QUESTION DATABASE - 24 PERTANYAAN (TETAP LENGKAP) ====================
         const questions = [
             {
-                text: "Dalam rapat GenB, saya biasanya:",
+                text: "Dalam situasi kelompok, saya biasanya:",
                 options: [
                     { text: "Mengambil inisiatif dan memimpin diskusi", type: "D" },
-                    { text: "Memotivasi anggota lain dan menciptakan energi positif", type: "I" },
+                    { text: "Memotivasi orang lain dan menciptakan energi positif", type: "I" },
                     { text: "Mendengarkan semua pendapat dan mencari kesepakatan", type: "S" },
-                    { text: "Menganalisis informasi dan memastikan data akurat", type: "C" }
+                    { text: "Menganalisis informasi dan memastikan akurasi data", type: "C" }
                 ]
             },
             {
-                text: "Ketika ada proyek baru di GenB, saya:",
+                text: "Ketika menghadapi tantangan baru, saya:",
                 options: [
                     { text: "Langsung mengambil tindakan dan mencoba solusi", type: "D" },
-                    { text: "Mencari dukungan dan masukan dari anggota lain", type: "I" },
+                    { text: "Mencari dukungan dan masukan dari orang lain", type: "I" },
                     { text: "Menganalisis risiko dengan hati-hati sebelum bertindak", type: "S" },
                     { text: "Membuat rencana detail dan mempertimbangkan semua aspek", type: "C" }
                 ]
             },
             {
-                text: "Dalam mengambil keputusan untuk GenB, saya:",
+                text: "Dalam membuat keputusan penting, saya:",
                 options: [
                     { text: "Mengandalkan insting dan pengalaman pribadi", type: "D" },
-                    { text: "Mempertimbangkan dampak pada hubungan antar anggota", type: "I" },
+                    { text: "Mempertimbangkan dampak pada hubungan interpersonal", type: "I" },
                     { text: "Mencari konsensus dan menghindari konflik", type: "S" },
                     { text: "Mengumpulkan semua data yang diperlukan terlebih dahulu", type: "C" }
                 ]
             },
             {
-                text: "Ketika tim GenB mengalami kebuntuan, saya:",
+                text: "Ketika tim mengalami kebuntuan, saya:",
                 options: [
                     { text: "Memberikan arahan yang jelas dan tegas", type: "D" },
                     { text: "Memotivasi tim dengan visi yang inspiratif", type: "I" },
@@ -667,7 +606,7 @@
                 ]
             },
             {
-                text: "Dalam komunikasi di GenB, saya lebih suka:",
+                text: "Dalam komunikasi, saya lebih suka:",
                 options: [
                     { text: "Langsung ke inti permasalahan", type: "D" },
                     { text: "Menggunakan cerita dan contoh yang menarik", type: "I" },
@@ -676,7 +615,7 @@
                 ]
             },
             {
-                text: "Di acara GenB yang baru, saya:",
+                text: "Di lingkungan sosial yang baru, saya:",
                 options: [
                     { text: "Memperkenalkan diri dan mengambil peran aktif", type: "D" },
                     { text: "Dengan mudah memulai percakapan dengan siapa saja", type: "I" },
@@ -685,7 +624,7 @@
                 ]
             },
             {
-                text: "Ketika memberikan feedback di GenB, saya:",
+                text: "Ketika memberikan feedback, saya:",
                 options: [
                     { text: "Langsung dan to the point", type: "D" },
                     { text: "Menyampaikan dengan positif dan membangun", type: "I" },
@@ -694,7 +633,7 @@
                 ]
             },
             {
-                text: "Dalam presentasi untuk GenB, gaya saya cenderung:",
+                text: "Dalam presentasi, gaya saya cenderung:",
                 options: [
                     { text: "Powerful dan berorientasi pada hasil", type: "D" },
                     { text: "Energik dan penuh antusiasme", type: "I" },
@@ -703,7 +642,7 @@
                 ]
             },
             {
-                text: "Ketika deadline GenB mendekat, saya:",
+                text: "Ketika berada di bawah tekanan, saya:",
                 options: [
                     { text: "Menjadi lebih fokus dan determinasi", type: "D" },
                     { text: "Mencari dukungan sosial untuk melepas stres", type: "I" },
@@ -712,7 +651,7 @@
                 ]
             },
             {
-                text: "Ketika menghadapi kritik di GenB, saya:",
+                text: "Ketika menghadapi kritik, saya:",
                 options: [
                     { text: "Melihatnya sebagai tantangan untuk berkembang", type: "D" },
                     { text: "Cenderung mengambilnya secara personal", type: "I" },
@@ -721,7 +660,7 @@
                 ]
             },
             {
-                text: "Dalam menghadapi konflik di GenB, saya:",
+                text: "Dalam menghadapi konflik, saya:",
                 options: [
                     { text: "Menghadapinya langsung dan mencari solusi", type: "D" },
                     { text: "Mencoba mendamaikan dan mencari win-win solution", type: "I" },
@@ -730,16 +669,16 @@
                 ]
             },
             {
-                text: "Ketika gagal dalam tugas GenB, saya:",
+                text: "Ketika mengalami kegagalan, saya:",
                 options: [
                     { text: "Bangkit cepat dan mencari cara baru", type: "D" },
-                    { text: "Berbagi dengan anggota terdekat untuk dukungan", type: "I" },
+                    { text: "Berbagi dengan orang terdekat untuk dukungan", type: "I" },
                     { text: "Butuh waktu untuk memproses dan menerima", type: "S" },
                     { text: "Menganalisis penyebab kegagalan secara detail", type: "C" }
                 ]
             },
             {
-                text: "Dalam mengerjakan tugas GenB, saya:",
+                text: "Dalam mengerjakan tugas, saya:",
                 options: [
                     { text: "Fokus pada hasil akhir dan target", type: "D" },
                     { text: "Menikmati proses kolaborasi dengan tim", type: "I" },
@@ -748,7 +687,7 @@
                 ]
             },
             {
-                text: "Menghadapi deadline GenB, saya:",
+                text: "Menghadapi deadline, saya:",
                 options: [
                     { text: "Bekerja dengan intensif di akhir", type: "D" },
                     { text: "Mencari cara kreatif untuk menyelesaikan", type: "I" },
@@ -757,7 +696,7 @@
                 ]
             },
             {
-                text: "Dalam bekerja sama di GenB, saya:",
+                text: "Dalam bekerja sama, saya:",
                 options: [
                     { text: "Mendelegasikan dan mengkoordinir", type: "D" },
                     { text: "Memotivasi dan menginspirasi rekan kerja", type: "I" },
@@ -766,7 +705,7 @@
                 ]
             },
             {
-                text: "Ketika menghadapi proyek kompleks di GenB, saya:",
+                text: "Ketika menghadapi proyek kompleks, saya:",
                 options: [
                     { text: "Memecah menjadi bagian-bagian yang dapat ditaklukkan", type: "D" },
                     { text: "Mengajak brainstorming dengan tim", type: "I" },
@@ -775,7 +714,7 @@
                 ]
             },
             {
-                text: "Saya paling termotivasi di GenB oleh:",
+                text: "Saya paling termotivasi oleh:",
                 options: [
                     { text: "Tantangan dan kesempatan untuk menang", type: "D" },
                     { text: "Pengakuan dan hubungan sosial", type: "I" },
@@ -784,7 +723,7 @@
                 ]
             },
             {
-                text: "Dalam belajar hal baru untuk GenB, saya:",
+                text: "Dalam belajar hal baru, saya:",
                 options: [
                     { text: "Langsung mencoba dan belajar dari pengalaman", type: "D" },
                     { text: "Belajar melalui diskusi dan sharing dengan orang", type: "I" },
@@ -793,7 +732,7 @@
                 ]
             },
             {
-                text: "Untuk pengembangan di GenB, saya:",
+                text: "Untuk pengembangan karir, saya:",
                 options: [
                     { text: "Mencari posisi dengan tanggung jawab dan wewenang", type: "D" },
                     { text: "Mengembangkan jaringan dan relasi", type: "I" },
@@ -802,7 +741,7 @@
                 ]
             },
             {
-                text: "Ketika menerima penghargaan di GenB, saya:",
+                text: "Ketika menerima penghargaan, saya:",
                 options: [
                     { text: "Melihatnya sebagai pengakuan atas hasil kerja", type: "D" },
                     { text: "Menikmati momen dan berbagi dengan banyak orang", type: "I" },
@@ -811,16 +750,16 @@
                 ]
             },
             {
-                text: "Saya merasa paling nyaman di GenB ketika:",
+                text: "Saya merasa paling nyaman ketika:",
                 options: [
                     { text: "Memegang kendali atas situasi", type: "D" },
-                    { text: "Dikelilingi oleh banyak anggota", type: "I" },
+                    { text: "Dikelilingi oleh banyak orang", type: "I" },
                     { text: "Semua berjalan sesuai rutinitas", type: "S" },
                     { text: "Semua detail sudah terorganisir rapi", type: "C" }
                 ]
             },
             {
-                text: "Dalam lingkungan GenB, saya lebih suka:",
+                text: "Dalam lingkungan kerja, saya lebih suka:",
                 options: [
                     { text: "Lingkungan yang kompetitif dan menantang", type: "D" },
                     { text: "Lingkungan yang sosial dan kolaboratif", type: "I" },
@@ -829,7 +768,7 @@
                 ]
             },
             {
-                text: "Saya paling tidak suka di GenB ketika:",
+                text: "Saya paling tidak suka ketika:",
                 options: [
                     { text: "Tidak memiliki kendali atas situasi", type: "D" },
                     { text: "Diabaikan atau tidak dihargai", type: "I" },
@@ -838,7 +777,7 @@
                 ]
             },
             {
-                text: "Nilai terpenting dalam GenB bagi saya adalah:",
+                text: "Nilai terpenting dalam bekerja bagi saya adalah:",
                 options: [
                     { text: "Pencapaian dan hasil nyata", type: "D" },
                     { text: "Hubungan dan pengakuan", type: "I" },
@@ -848,28 +787,24 @@
             }
         ];
 
-        // ==================== DISC TYPE DEFINITIONS YANG LEBIH DETAIL ====================
+        // ==================== DISC TYPE DEFINITIONS ====================
         const typeDefinitions = {
             'D': {
                 name: 'DOMINANCE',
                 title: 'Sang Penggerak 🦁',
                 color: 'd-type',
                 description: 'Kamu adalah natural leader yang tegas dan berorientasi pada hasil. Di GenB, kamu yang biasanya memulai aksi dan memastikan target tercapai.',
-                coreMotivation: 'Kontrol, pencapaian, kemenangan, dan tantangan',
-                communicationStyle: 'Langsung, to the point, berorientasi pada solusi',
                 strengths: [
                     'Kepemimpinan yang kuat dan visioner',
                     'Berani mengambil risiko dan inisiatif',
                     'Fokus pada hasil dan pencapaian target',
-                    'Mandiri, percaya diri, dan determinasi tinggi',
-                    'Cepat dalam pengambilan keputusan'
+                    'Mandiri, percaya diri, dan determinasi tinggi'
                 ],
                 challenges: [
                     'Kurang sabar dengan proses yang lambat',
                     'Terkadang terlalu langsung dan kurang diplomatis',
                     'Perlu meningkatkan empati dan mendengarkan',
-                    'Sulit mendelegasikan dan mempercayai orang lain',
-                    'Cenderung mengabaikan detail kecil'
+                    'Sulit mendelegasikan dan mempercayai orang lain'
                 ],
                 growthTips: [
                     'Belajar untuk lebih sabar dan mendengarkan',
@@ -883,21 +818,17 @@
                 title: 'Sang Penyemangat 🌟',
                 color: 'i-type',
                 description: 'Kamu adalah pribadi yang energik dan pandai membangun hubungan. Di GenB, kamu yang menjaga semangat tim dan menciptakan lingkungan positif.',
-                coreMotivation: 'Pengakuan sosial, hubungan interpersonal, dan ekspresi diri',
-                communicationStyle: 'Energik, persuasif, penuh cerita dan antusiasme',
                 strengths: [
                     'Komunikator yang persuasif dan inspiratif',
                     'Mudah membangun jaringan dan relasi luas',
                     'Memotivasi dan menginspirasi tim dengan visi',
-                    'Kreatif, inovatif, dan penuh ide baru',
-                    'Menciptakan lingkungan kerja yang positif'
+                    'Kreatif, inovatif, dan penuh ide baru'
                 ],
                 challenges: [
                     'Terkadang kurang detail-oriented dan terorganisir',
                     'Sulit mengatakan "tidak" dan menolak permintaan',
                     'Perlu lebih disiplin dengan waktu dan deadline',
-                    'Kadang terlalu optimis dan kurang realistis',
-                    'Cenderung menghindari konflik'
+                    'Kadang terlalu optimis dan kurang realistis'
                 ],
                 growthTips: [
                     'Mengembangkan disiplin waktu dan organisasi',
@@ -911,21 +842,17 @@
                 title: 'Sang Penjaga 🤝',
                 color: 's-type',
                 description: 'Kamu adalah pribadi yang sabar dan dapat diandalkan. Di GenB, kamu yang menjaga harmoni dan memastikan semua berjalan lancar.',
-                coreMotivation: 'Stabilitas, keamanan, kerja sama, dan harmoni',
-                communicationStyle: 'Tenang, sabar, penuh pengertian, dan mudah didengar',
                 strengths: [
                     'Sabar, penuh pengertian, dan empati tinggi',
                     'Team player yang kooperatif dan supportive',
                     'Konsisten, dapat diandalkan, dan setia',
-                    'Pendengar yang baik dan penasihat yang sabar',
-                    'Menjaga lingkungan yang harmonis dan stabil'
+                    'Pendengar yang baik dan penasihat yang sabar'
                 ],
                 challenges: [
                     'Menghindari konfrontasi dan konflik',
                     'Sulit beradaptasi dengan perubahan cepat',
                     'Perlu lebih asertif dalam menyampaikan pendapat',
-                    'Terkadang menghindari risiko dan tantangan baru',
-                    'Cenderung menunda keputusan sulit'
+                    'Terkadang menghindari risiko dan tantangan baru'
                 ],
                 growthTips: [
                     'Belajar untuk lebih asertif dan tegas',
@@ -939,21 +866,17 @@
                 title: 'Sang Analitis 🔍',
                 color: 'c-type',
                 description: 'Kamu adalah pribadi yang teliti dan berorientasi pada kualitas. Di GenB, kamu yang memastikan segala sesuatunya akurat dan terorganisir.',
-                coreMotivation: 'Akurasi, kualitas, keahlian teknis, dan proses yang benar',
-                communicationStyle: 'Sistematis, detail-oriented, berbasis data dan fakta',
                 strengths: [
                     'Analitis, kritis, dan detail-oriented',
                     'Berkualitas tinggi dan akurat dalam pekerjaan',
                     'Sistematis, terorganisir, dan metodologis',
-                    'Mengutamakan fakta, data, dan bukti',
-                    'Spesialis yang mendalam dalam bidangnya'
+                    'Mengutamakan fakta, data, dan bukti'
                 ],
                 challenges: [
                     'Terkadang terlalu kritis dan perfeksionis',
                     'Sulit mengambil keputusan cepat tanpa data lengkap',
                     'Kurang fleksibel dengan perubahan mendadak',
-                    'Cenderung overthinking dan analisis berlebihan',
-                    'Perlu meningkatkan kemampuan sosial'
+                    'Cenderung overthinking dan analisis berlebihan'
                 ],
                 growthTips: [
                     'Belajar mengambil keputusan dengan informasi terbatas',
@@ -1118,7 +1041,7 @@
 
             const dominant = typeDefinitions[dominantType];
             
-            // Generate detailed result HTML
+            // Generate result HTML
             let resultHTML = `
                 <div class="disc-type ${dominant.color} fade-in">
                     <h3>${dominant.title}</h3>
@@ -1159,7 +1082,7 @@
 
                 <div class="grid-2">
                     <div>
-                        <h4>💪 Kekuatan Utama Kamu:</h4>
+                        <h4>💪 Kekuatan Utama:</h4>
                         ${dominant.strengths.map(strength => `
                             <div class="strength-item strength-${dominantType.toLowerCase()}">
                                 ${strength}
@@ -1178,25 +1101,12 @@
                 </div>
 
                 <div class="info-box">
-                    <h4>🎯 Motivasi Inti:</h4>
-                    <p>${dominant.coreMotivation}</p>
-                    
-                    <h4 style="margin-top: 20px;">🗣️ Gaya Komunikasi:</h4>
-                    <p>${dominant.communicationStyle}</p>
-                </div>
-
-                <div class="info-box">
-                    <h4>🌱 Tips Pengembangan untuk GenB:</h4>
+                    <h4>🌱 Tips Pengembangan:</h4>
                     ${dominant.growthTips.map(tip => `
-                        <div class="strength-item" style="border-left-color: #8BBF7A; background: #F8FFF0; margin: 10px 0;">
+                        <div class="strength-item" style="border-left-color: #8BBF7A; background: #F8FFF0; margin: 8px 0;">
                             ${tip}
                         </div>
                     `).join('')}
-                </div>
-
-                <div class="info-box">
-                    <h4>💡 Insight untuk Kolaborasi:</h4>
-                    <p>Profil DISC-mu menunjukkan gaya unik dalam berkontribusi untuk GenB. Gunakan kekuatan alami ini untuk berkolaborasi lebih efektif dengan sesama pengurus. Ingat, setiap tipe punya peran penting dalam membuat GenB lebih baik! 🌟</p>
                 </div>
             `;
             
